@@ -1,0 +1,28 @@
+{
+  "name": "mobicorp-backend",
+  "version": "1.0.0",
+  "description": "Backend para MobiCorp - Sistema de extracción de precios con IA",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "axios": "^1.13.2",
+    "html-to-text": "^9.0.5",
+    "openai": "^6.9.0",
+    "jsonwebtoken": "^9.0.2",
+    "mysql2": "^3.15.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
